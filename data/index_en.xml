@@ -1,0 +1,1135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="index.xsl"?>
+
+<data>
+
+  <technologies>Technologies</technologies>
+  <portfolio>Portfolio</portfolio>
+  <last_modified>Last modified</last_modified>
+
+  <head_title>Vladimir Zhelezarov | Portfolio</head_title>
+  <head_description>Vladimir Zhelezarov | Portfolio</head_description>
+  <toggle_navigation>Toggle navigation</toggle_navigation>
+
+  <nav_entry_about>About</nav_entry_about>
+  <nav_entry_portfolio>Portfolio</nav_entry_portfolio>
+  <nav_entry_docs>Docs</nav_entry_docs>
+  <nav_entry_contact>Contact</nav_entry_contact>
+
+  <switch_lang>Auf Deutsch wechseln</switch_lang>
+  <switch_lang_icon>index_files/de.gif</switch_lang_icon>
+  <switch_lang_url>index_de.html</switch_lang_url>
+
+  <about>
+    <header>About me</header>
+    <my_name>Vladimir Zhelezarov</my_name>
+    <bullets>
+      <bullet><![CDATA[born 1980 in <a href="https://en.wikipedia.org/wiki/Bulgaria" title="about Bulgaria">Bulgaria</a>;]]></bullet>
+      <bullet><![CDATA[long time ago worked in <a href="qclean.net/index_en.html" title="qclean.net - the original site is no longer maintained, here is an archive copy">my own small company</a>, specialized in industrial cleaning and antigraffiti;]]></bullet>
+      <bullet><![CDATA[living in <a href="https://en.wikipedia.org/wiki/L%C3%BCneburg_Heath" title="currently in the beatifull Heide">Germany</a> since 2012;]]></bullet>
+      <bullet><![CDATA[for ~7 years (2015-2021) worked as a service technician for wind turbines in <a href="https://www.deutsche-windtechnik.com/home.html" title="Deutsche Windtechnik">"Deutsche Windtechnik AG"</a> - mainly <a href="https://en.wikipedia.org/wiki/Siemens_Wind_Power" title="more about AN BONUS">BONUS/ Siemens</a>. This led to some fun and challenging private side projects (see <a href="#domain-header-wind" class="internal-link" onclick="toggle('wind')">below</a>);]]></bullet>
+      <bullet><![CDATA[passionate about learning new things and solving real world problems.]]></bullet>
+    </bullets>
+    <working_on>Currently (in my free time) working on:</working_on>
+    <current_projects>
+      <project><![CDATA[Pursuing a Bachelor-Degree in "Digital Engineering and Applied Computer Science" at <a href="https://www.akad.de" title="AKAD University">AKAD Stuttgart</a>.  Check <a href="https://github.com/vlzware/AKAD_BEDEN" title="my github repo">github</a> for some of my student work.]]></project>
+    </current_projects>
+  </about>
+<domain>
+
+  <domain_title>WIND TURBINES</domain_title>
+  <domain_title_small>wind turbines</domain_title_small>
+  <domain_id>wind</domain_id>
+
+  <projects>
+    <project>
+      <enabled>1</enabled>
+      <project_title>Wind Turbines smart signal management</project_title>
+      <thumbnail>
+        <th_file>index_files/media/SmartHub.jpg</th_file>
+        <th_alt>analog to digital bridge</th_alt>
+        <th_url>https://github.com/vlzware/SmartHubOSS</th_url>
+        <th_title>view at github</th_title>
+      </thumbnail>
+
+      <header>A fully transparent, bidirectional Analog-Digital Bridge for Siemens/BONUS wind turbines</header>
+      <subheader>
+        <![CDATA[Intelligent management of the turbine hub's signals.]]>
+      </subheader>
+      <list>
+        <bullet><![CDATA[stable and (in the case of the old BONUS turbines) more reliable Bluetooth connection;]]></bullet>
+        <bullet><![CDATA[translate all signals to digital, transmit and then recreate them on the other side;]]></bullet>
+        <bullet><![CDATA[watch every single signal and log all errors on a SD card;]]></bullet>
+        <bullet><![CDATA[a very extensible software, allowing to watch for much more complicated conditions;]]></bullet>
+        <bullet><![CDATA[enormously reducing the costs of repairing a slippery ring;]]></bullet>
+        <bullet><![CDATA[enormously reduction in time when searching for a problem's cause;]]></bullet>
+        <bullet><![CDATA[the error log can be read directly from the SD, or through an Android app.]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+      </list>
+
+      <comment></comment>
+
+      <call_to_action>Browse the circuit plans and the code on github</call_to_action>
+
+      <source>
+        <src_url>https://github.com/vlzware/SmartHubOSS</src_url>
+        <src_name>view at github</src_name>
+        <src_url_title>view at github</src_url_title>
+        <src_icon>fa-github</src_icon>
+      </source>
+
+      <website>
+        <web_url></web_url>
+        <web_name></web_name>
+        <web_url_title></web_url_title>
+        <web_icon></web_icon>
+      </website>
+
+      <technologies>
+        <tag>C</tag>
+        <tag>Microcontroller</tag>
+        <tag>Wind Turbines</tag>
+        <tag>Open Source</tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+      </technologies>
+
+      <last_modified>08.07.2018</last_modified>
+    </project>    <project>
+      <enabled>1</enabled>
+      <project_title>Wind Turbines Bluetooth Controller using a Smartphone</project_title>
+      <thumbnail>
+        <th_file>index_files/media/btdisplay.png</th_file>
+        <th_alt>Bluetooth Display</th_alt>
+        <th_url>https://www.youtube.com/watch?v=T3RdbmtGXXk</th_url>
+        <th_title>youtube video with the main fucntions</th_title>
+      </thumbnail>
+
+      <header>A bluetooth interface and Android app for Siemens/BONUS wind turbines</header>
+      <subheader><![CDATA[The service technician will fall in love with it because of its effectiveness, the CEO will fall in love with it because of its cost.]]></subheader>
+      <list>
+        <bullet><![CDATA[every possible function of the original controller, but without the cable;]]></bullet>
+        <bullet><![CDATA[a <b>-lot-</b> additional features like phone call, taking and organizing pictures and notes, access to circuit diagrams, flashlight ...]]></bullet>
+        <bullet><![CDATA[secure two-way authentication, encrypted connection, dynamic keys;]]></bullet>
+        <bullet><![CDATA[macros - preprogrammed sets of repeatable actions, like starting a pump with a single click;]]></bullet>
+        <bullet><![CDATA[extensible framework, adaptable to much more wind turbines than BONUS;]]></bullet>
+        <bullet><![CDATA[<b>a fraction</b> of the cost of the original controller;]]></bullet>
+        <bullet><![CDATA[source code now available at GitHub]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+      </list>
+
+      <comment></comment>
+
+      <call_to_action>Browse the code on github or view it in action on a 2MW AN-BONUS (Siemens) WTC2 wind turbine:</call_to_action>
+
+      <source>
+        <src_url>https://github.com/vlzware/BTDisplayOSS</src_url>
+        <src_name>view at github</src_name>
+        <src_url_title>view at github</src_url_title>
+        <src_icon>fa-github</src_icon>
+      </source>
+
+      <website>
+        <web_url>https://www.youtube.com/watch?v=T3RdbmtGXXk</web_url>
+        <web_name>youtube video</web_name>
+        <web_url_title>view video with the main functions</web_url_title>
+        <web_icon>fa-video-camera</web_icon>
+      </website>
+
+      <technologies>
+        <tag>C</tag>
+        <tag>Java</tag>
+        <tag>Android</tag>
+        <tag>Microcontroller</tag>
+        <tag>Wind Turbines</tag>
+        <tag>Open Source</tag>
+        <tag></tag>
+        <tag></tag>
+      </technologies>
+
+      <last_modified>05.05.2019</last_modified>
+    </project>    <project>
+      <enabled>1</enabled>
+      <project_title>Serial to Bluetooth hardware interface</project_title>
+      <thumbnail>
+        <th_file>index_files/media/serialToBt.jpg</th_file>
+        <th_alt>Serial-to-Bluetooth interface</th_alt>
+        <th_url>https://github.com/vlzware/Serial-to-Bluetooth</th_url>
+        <th_title>view at github</th_title>
+      </thumbnail>
+
+      <header>Advanced, programmable RS485 interface</header>
+      <subheader><![CDATA[Originaly created as the hardware companion to <a href="https://github.com/vlzware/BTDisplayOSS" title="bluetooth wind turbine controller">BTDisplay</a>, but then evolved to general purpose programmable interface.]]></subheader>
+      <list>
+        <bullet><![CDATA[fully programmable functions thanks to the integrated ATMEGA microcontroller;]]></bullet>
+        <bullet><![CDATA[industrial grade components with lot of redundance;]]></bullet>
+        <bullet><![CDATA[really small form factor;]]></bullet>
+        <bullet><![CDATA[general purpose LED, recharchable battery with charging circuit, magnet;]]></bullet>
+        <bullet><![CDATA[open-source hardware.]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+      </list>
+
+      <comment></comment>
+
+      <call_to_action></call_to_action>
+
+      <source>
+        <src_url>https://github.com/vlzware/Serial-to-Bluetooth</src_url>
+        <src_name>view at github</src_name>
+        <src_url_title>view at github</src_url_title>
+        <src_icon>fa-github</src_icon>
+      </source>
+
+      <website>
+        <web_url></web_url>
+        <web_name></web_name>
+        <web_url_title></web_url_title>
+        <web_icon></web_icon>
+      </website>
+
+      <technologies>
+        <tag>Hardware</tag>
+        <tag>CAD</tag>
+        <tag>Electronics</tag>
+        <tag>Wind Turbines</tag>
+        <tag>Open Source</tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+      </technologies>
+
+      <last_modified>17.10.2017</last_modified>
+    </project>
+    <project>
+      <enabled>1</enabled>
+      <project_title>VCU monitor</project_title>
+      <thumbnail>
+        <th_file>index_files/media/VCUmon.png</th_file>
+        <th_alt>VCU monitor</th_alt>
+        <th_url>http://tinyurl.com/yxrs5eed</th_url>
+        <th_title>view at Falstad</th_title>
+      </thumbnail>
+
+      <header>A low-tech error logging facility for the VCU*</header>
+      <subheader>
+        <![CDATA[Quickly troubleshoot VCU-errors]]>
+      </subheader>
+      <list>
+        <bullet><![CDATA[The centrifugal switches are connected in series, which is often problematic when troubleshooting. In almost all cases, the problem is a loose connection, which sporadically works.]]></bullet>
+        <bullet><![CDATA[I suggest a simple, non-invasive, low-level and low-cost concept to save the error-events in a mechanical way.]]></bullet>
+        <bullet><![CDATA[The "logger" in the simulation is a bi-stable relay, like <a href="https://www.reichelt.de/printrelais-bistabil-1-wechsler-24-v-dc-fin-41-61-6w-24v-p166155.html?" title="reichelt.de">this one</a>. The trivial circuits for the reporting and the resetting side are not shown in the simulation.]]></bullet>
+        <bullet><![CDATA[All combinations of error-states are possible, up to the scenario when A and C disconnect simultaneously and then stay disconnected. Then there would be also the (false) report of "B disconnected".]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+      </list>
+
+      <comment>*Vinge Centrifugal Unit (Overspeed protection switches in the hub)</comment>
+
+      <call_to_action>Live simulation with all three blades on Falstad (play with the switches to simulate different cases):</call_to_action>
+
+      <source>
+        <src_url></src_url>
+        <src_name></src_name>
+        <src_url_title></src_url_title>
+        <src_icon></src_icon>
+      </source>
+
+      <website>
+        <web_url>http://tinyurl.com/yxrs5eed</web_url>
+        <web_name>view at Falstad</web_name>
+        <web_url_title>live simulation</web_url_title>
+        <web_icon></web_icon>
+      </website>
+
+      <technologies>
+        <tag>Wind Turbines</tag>
+        <tag>Simulation</tag>
+        <tag>Open Source</tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+      </technologies>
+
+      <last_modified>13.09.2019</last_modified>
+    </project>    <project>
+      <enabled>1</enabled>
+      <project_title>Wind turbine hub hydraulics in a real-time simulation</project_title>
+      <thumbnail>
+        <th_file>index_files/media/hydraulics_sim.png</th_file>
+        <th_alt>hydraulics simulation</th_alt>
+        <th_url>https://youtu.be/gWOjZWlv_fs</th_url>
+        <th_title>view video with the main functions</th_title>
+      </thumbnail>
+
+      <header>Reverse-engineering the hub hydraulics of a popular Siemens/BONUS wind turbine</header>
+      <subheader><![CDATA[To help the service-technician have a better and deeper understanding on what he is working with.]]></subheader>
+      <list>
+        <bullet><![CDATA[real-time simulation with everything adjustable;]]></bullet>
+        <bullet><![CDATA[both electrical and mechanical componets simulated;]]></bullet>
+        <bullet><![CDATA[able to simulate failure-conditions.]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+      </list>
+
+      <comment>The names of the components in the video are blurred on purpose.</comment>
+
+      <call_to_action></call_to_action>
+
+      <source>
+        <src_url></src_url>
+        <src_name></src_name>
+        <src_url_title></src_url_title>
+        <src_icon></src_icon>
+      </source>
+
+      <website>
+        <web_url>https://youtu.be/gWOjZWlv_fs</web_url>
+        <web_name>youtube video</web_name>
+        <web_url_title>view video with the main functions</web_url_title>
+        <web_icon>fa-video-camera</web_icon>
+      </website>
+
+      <technologies>
+        <tag>Hydraulics</tag>
+        <tag>CAD</tag>
+        <tag>Simulation</tag>
+        <tag>Wind Turbines</tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+      </technologies>
+
+      <last_modified>04.09.2017</last_modified>
+    </project>
+    <project>
+      <enabled>1</enabled>
+      <project_title>Wind turbines finder</project_title>
+      <thumbnail>
+        <th_file>index_files/media/wea_suche.png</th_file>
+        <th_alt>wind turbines navigation app</th_alt>
+        <th_url>https://youtu.be/fkMzzczyLYU</th_url>
+        <th_title>youtube video with the navigation app</th_title>
+      </thumbnail>
+
+      <header>Navigation app using google-maps and simple database</header>
+      <subheader><![CDATA[To quickly find the exact coordinates of a specific wind turbine.]]></subheader>
+      <list>
+        <bullet><![CDATA[search in all database fields as-you-type;]]></bullet>
+        <bullet><![CDATA[work with precise locations;]]></bullet>
+        <bullet><![CDATA[driving directions in real time with google maps;]]></bullet>
+        <bullet><![CDATA[updatable database.]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+      </list>
+
+      <comment></comment>
+
+      <call_to_action>View the source code at github or see the app in action on youtube:</call_to_action>
+
+      <source>
+        <src_url>https://github.com/vlzware/Wind-Turbines-Finder</src_url>
+        <src_name>view at github</src_name>
+        <src_url_title>view at github</src_url_title>
+        <src_icon>fa-github</src_icon>
+      </source>
+
+      <website>
+        <web_url>https://youtu.be/fkMzzczyLYU</web_url>
+        <web_name>youtube video</web_name>
+        <web_url_title>view video with the navigation app</web_url_title>
+        <web_icon>fa-video-camera</web_icon>
+      </website>
+
+      <technologies>
+        <tag>Android</tag>
+        <tag>Java</tag>
+        <tag>Navigation</tag>
+        <tag>Wind Turbines</tag>
+        <tag>Open Source</tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+      </technologies>
+
+      <last_modified>09.09.2017</last_modified>
+    </project>
+
+  </projects>
+</domain>
+<domain>
+
+  <domain_title>C</domain_title>
+  <domain_title_small>C</domain_title_small>
+  <domain_id>c</domain_id>
+
+  <projects>
+    <project>
+      <enabled>1</enabled>
+      <project_title>Stide - a steganography tool</project_title>
+      <thumbnail>
+        <th_file>index_files/media/stide.png</th_file>
+        <th_alt>steganography tool</th_alt>
+        <th_url>https://github.com/vlzware/stide</th_url>
+        <th_title>view at github</th_title>
+      </thumbnail>
+
+      <header>A steganography tool wich features compression, encryption and (almost) non-intrusive hiding techniques.</header>
+      <subheader><![CDATA[Stide uses <a href="https://en.wikipedia.org/wiki/Steganography" title="more about steganography">steganography</a> (hiding secrets in images) and encryption to makes detection and reading of secret messages very difficult.]]></subheader>
+      <list>
+        <bullet><![CDATA[a very low impact on the host image;]]></bullet>
+        <bullet><![CDATA[randomized distribution of the embedded text;]]></bullet>
+        <bullet><![CDATA[the hidden message is additionally encrypted;]]></bullet>
+        <bullet><![CDATA[provided one uses some unique image only once, the output can be compared to a <a href="https://en.wikipedia.org/wiki/One-time_pad" title="more about OTP">one-time-pad</a> i.e. unbreakable;]]></bullet>
+        <bullet><![CDATA[linux/Windows binaries and simple gui interface included;]]></bullet>
+        <bullet><![CDATA[There are, however, some <a href="https://github.com/vlzware/stide#7-limitationstodoplaned-upgrades" title="more at github">limitations</a>.]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+      </list>
+
+      <comment></comment>
+
+      <call_to_action></call_to_action>
+
+      <source>
+        <src_url>https://github.com/vlzware/stide</src_url>
+        <src_name>view at github</src_name>
+        <src_url_title>view at github</src_url_title>
+        <src_icon>fa-github</src_icon>
+      </source>
+
+      <website>
+        <web_url>https://www.youtube.com/watch?v=jJNdZ8nXIX4</web_url>
+        <web_name>youtube video</web_name>
+        <web_url_title>youtube video</web_url_title>
+        <web_icon>fa-video-camera</web_icon>
+      </website>
+
+      <technologies>
+        <tag>C</tag>
+        <tag>Steganography</tag>
+        <tag>Encryption</tag>
+        <tag>Open Source</tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+      </technologies>
+
+      <last_modified>27.01.2018</last_modified>
+    </project>    <project>
+      <enabled>1</enabled>
+      <project_title>Solved and contributed to exercism.io/c</project_title>
+      <thumbnail>
+        <th_file>index_files/media/exercism.png</th_file>
+        <th_alt>exercism profile</th_alt>
+        <th_url>https://exercism.io/profiles/vlzware</th_url>
+        <th_title>view my exercism profile</th_title>
+      </thumbnail>
+
+      <header>A platform* to level up in over 30 different languages</header>
+      <subheader><![CDATA[I really liked this portal*, so I joined and:]]></subheader>
+      <list>
+        <bullet><![CDATA[<a href="https://exercism.io/profiles/vlzware" title="view my exercism profile">solved</a> every available problem in C;]]></bullet>
+        <bullet><![CDATA[<a href="https://exercism.io/profiles/vlzware" title="view my exercism profile">reviewed</a>* as much as possible other solutions;]]></bullet>
+        <bullet><![CDATA[<a href="https://github.com/exercism/c/commits?author=vlzware" title="view at github">contributed</a> to the site with implementing 15 new exercises, from the available <a href="https://github.com/exercism/problem-specifications" title="specifications repo">specifications</a>;]]></bullet>
+        <bullet><![CDATA[even build a <a href="https://github.com/vlzware/generate-c-templates-exercism" title="view at github">python tool</a> to automate as much as possible while creating new exercises.]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+      </list>
+
+      <comment>* exercism.io changed the interface since.</comment>
+
+      <call_to_action>Visit the site or view my commits in GitHub:</call_to_action>
+
+      <source>
+        <src_url>https://github.com/exercism/c/commits?author=vlzware</src_url>
+        <src_name>github repo</src_name>
+        <src_url_title>view at github</src_url_title>
+        <src_icon>fa-github</src_icon>
+      </source>
+
+      <website>
+        <web_url>http://exercism.io</web_url>
+        <web_name>visit the site</web_name>
+        <web_url_title>visit exercism.io</web_url_title>
+        <web_icon></web_icon>
+      </website>
+
+      <technologies>
+        <tag>C</tag>
+        <tag>Open Source</tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+      </technologies>
+
+      <last_modified>22.03.2018</last_modified>
+    </project>    <project>
+      <enabled>1</enabled>
+      <project_title>K&amp;R Book - Solutions to the exercises</project_title>
+      <thumbnail>
+        <th_file>index_files/media/KRCover.png</th_file>
+        <th_alt>KR Cover (image from wikipedia.org)</th_alt>
+        <th_url>https://github.com/vlzware/the-c-programming-language-exercises</th_url>
+        <th_title>view at github</th_title>
+      </thumbnail>
+
+      <header>The C programming language by Brian Kernighan and Dennis Ritchie | Exercises</header>
+      <subheader><![CDATA[My solutions to all exercises from <a href="https://en.wikipedia.org/wiki/The_C_Programming_Language" title="view at wikipedia">the iconic book on C</a>.]]></subheader>
+      <list>
+        <bullet><![CDATA[Single-file solutions, compile- and test-ready;]]></bullet>
+        <bullet><![CDATA[balanced towards simplicity, without sacrificing too much flexibility;]]></bullet>
+        <bullet><![CDATA[all solutions are based only on the already learned stuff in the current/previous chapters;]]></bullet>
+        <bullet><![CDATA[every file can compile and run with no special dependencies (except some standard library headers);]]></bullet>
+        <bullet><![CDATA[all compiled with: <em>gcc -g -std=c99 -Wall -Wextra -pedantic-errors</em>]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+      </list>
+
+      <comment></comment>
+
+      <call_to_action>View the solutions at GitHub:</call_to_action>
+
+      <source>
+        <src_url>https://github.com/vlzware/the-c-programming-language-exercises</src_url>
+        <src_name>view at github</src_name>
+        <src_url_title>view at github</src_url_title>
+        <src_icon>fa-github</src_icon>
+      </source>
+
+      <website>
+        <web_url></web_url>
+        <web_name></web_name>
+        <web_url_title></web_url_title>
+        <web_icon></web_icon>
+      </website>
+
+      <technologies>
+        <tag>C</tag>
+        <tag>Open Source</tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+      </technologies>
+
+      <last_modified>01.01.2018</last_modified>
+    </project>
+  </projects>
+</domain>
+<domain>
+
+  <domain_title>WEB</domain_title>
+  <domain_title_small>front end</domain_title_small>
+  <domain_id>web</domain_id>
+
+  <projects>
+    <project>
+      <enabled>1</enabled>
+      <project_title>Boom-Music - create and play music online</project_title>
+      <thumbnail>
+        <th_file>index_files/media/boom.png</th_file>
+        <th_alt>boom-music</th_alt>
+        <th_url>https://vlzware.com/boom/index_files/play.html</th_url>
+        <th_title>visit boom-music</th_title>
+      </thumbnail>
+
+      <header>A funny website to create and play music</header>
+      <subheader><![CDATA[Originally created with <a href="https://en.wikipedia.org/wiki/Boomwhacker" title="boomwhackers">Boomwhackers</a> in mind, but can be used for almost any kind of music.]]></subheader>
+      <list>
+        <bullet><![CDATA[predefined melodies, which are even editable;]]></bullet>
+        <bullet><![CDATA[create new song from scratch;]]></bullet>
+        <bullet><![CDATA[download your work when ready and upload it later to use it again;]]></bullet>
+        <bullet><![CDATA[a fun family side-project.]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+      </list>
+
+      <comment></comment>
+
+      <call_to_action></call_to_action>
+
+      <source>
+        <src_url>https://github.com/Mihi5/BoOm</src_url>
+        <src_name>view at github</src_name>
+        <src_url_title>view at my daughter's github</src_url_title>
+        <src_icon>fa-github</src_icon>
+      </source>
+
+      <website>
+        <web_url>https://vlzware.com/boom/index_files/play.html</web_url>
+        <web_name>visit boom-music</web_name>
+        <web_url_title>visit boom-music</web_url_title>
+        <web_icon></web_icon>
+      </website>
+
+      <technologies>
+        <tag>HTML</tag>
+        <tag>CSS</tag>
+        <tag>JavaScript</tag>
+        <tag>Open Source</tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+      </technologies>
+
+      <last_modified>14.09.2019</last_modified>
+    </project>
+    <project>
+      <enabled>1</enabled>
+      <project_title>Simon Game</project_title>
+      <thumbnail>
+        <th_file>index_files/media/fcc/simon.png</th_file>
+        <th_alt>Simon Game</th_alt>
+        <th_url>https://vlzware.com/fcc/simon/</th_url>
+        <th_title>Simon Game</th_title>
+      </thumbnail>
+
+      <header>Another fun game from the childhood</header>
+      <subheader><![CDATA[A <a href="https://en.wikipedia.org/wiki/Simon_(game)" title="read about it at wikipedia">Simon</a> game:]]></subheader>
+      <list>
+        <bullet><![CDATA[Test your memory in an ever increasing difficulty;]]></bullet>
+        <bullet><![CDATA[Follow the pattern created by the computer]]></bullet>
+        <bullet><![CDATA[You can win after repeating the last sentence of twenty steps;]]></bullet>
+        <bullet><![CDATA[Use strict mode for even more challenge - if you fail, the game will start over.]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+      </list>
+
+      <comment></comment>
+
+      <call_to_action></call_to_action>
+
+      <source>
+        <src_url></src_url>
+        <src_name></src_name>
+        <src_url_title></src_url_title>
+        <src_icon></src_icon>
+      </source>
+
+      <website>
+        <web_url>https://vlzware.com/fcc/simon/</web_url>
+        <web_name>visit the website</web_name>
+        <web_url_title>Simon Game</web_url_title>
+        <web_icon></web_icon>
+      </website>
+
+      <technologies>
+        <tag>HTML</tag>
+        <tag>CSS</tag>
+        <tag>JavaScript</tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+      </technologies>
+
+      <last_modified>01.11.2017</last_modified>
+    </project>
+    <project>
+      <enabled>1</enabled>
+      <project_title>Tic-Tac-Toe Game</project_title>
+      <thumbnail>
+        <th_file>index_files/media/fcc/tictac.png</th_file>
+        <th_alt>TicTacToe Game</th_alt>
+        <th_url>https://vlzware.com/fcc/tictac/</th_url>
+        <th_title>TicTacToe Game</th_title>
+      </thumbnail>
+
+      <header>The fun game from the childhood</header>
+      <subheader><![CDATA[TicTacToe game:]]></subheader>
+      <list>
+        <bullet><![CDATA[Play with a friend or against the computer;]]></bullet>
+        <bullet><![CDATA[The AI is a perfect player - you are welcome to try to beat it, but the best one can achieve is a draw;]]></bullet>
+        <bullet><![CDATA[The AI uses the <a href="https://en.wikipedia.org/wiki/Minimax" title="minimax at wikipedia">minimax</a> algorithm and chooses a random move from a set of good ones;]]></bullet>
+        <bullet><![CDATA[The game keeps track of all moves.]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+      </list>
+
+      <comment></comment>
+
+      <call_to_action></call_to_action>
+
+      <source>
+        <src_url></src_url>
+        <src_name></src_name>
+        <src_url_title></src_url_title>
+        <src_icon></src_icon>
+      </source>
+
+      <website>
+        <web_url>https://vlzware.com/fcc/tictac/</web_url>
+        <web_name>visit the website</web_name>
+        <web_url_title>TicTacToe Game</web_url_title>
+        <web_icon></web_icon>
+      </website>
+
+      <technologies>
+        <tag>HTML</tag>
+        <tag>CSS</tag>
+        <tag>JavaScript</tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+      </technologies>
+
+      <last_modified>01.11.2017</last_modified>
+    </project>
+    <project>
+      <enabled>1</enabled>
+      <project_title>Pomodoro Clock</project_title>
+      <thumbnail>
+        <th_file>index_files/media/fcc/pomodoro.png</th_file>
+        <th_alt>pomodoro clock</th_alt>
+        <th_url>https://vlzware.com/fcc/pomodoro/</th_url>
+        <th_title>pomodoro clock</th_title>
+      </thumbnail>
+
+      <header>A simple but effective management method to boost your productivity</header>
+      <subheader><![CDATA[The <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique" title="read about this at wikipedia">Pomodoro</a> technique:]]></subheader>
+      <list>
+        <bullet><![CDATA[Decide on the task to be done.]]></bullet>
+        <bullet><![CDATA[Set the pomodoro timer (traditionally to 25 minutes).]]></bullet>
+        <bullet><![CDATA[Work on the task until the timer rings.]]></bullet>
+        <bullet><![CDATA[After the timer rings put a checkmark on a piece of paper.]]></bullet>
+        <bullet><![CDATA[If you have fewer than four checkmarks, take a short break (3–5 minutes), then go to step 2.]]></bullet>
+        <bullet><![CDATA[After four pomodoros, take a longer break (15–30 minutes), reset your checkmark count to zero, then go to step 1.]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+      </list>
+
+      <comment></comment>
+
+      <call_to_action></call_to_action>
+
+      <source>
+        <src_url></src_url>
+        <src_name></src_name>
+        <src_url_title></src_url_title>
+        <src_icon></src_icon>
+      </source>
+
+      <website>
+        <web_url>https://vlzware.com/fcc/pomodoro/</web_url>
+        <web_name>visit the website</web_name>
+        <web_url_title>visit the pomodoro clock website</web_url_title>
+        <web_icon></web_icon>
+      </website>
+
+      <technologies>
+        <tag>HTML</tag>
+        <tag>CSS</tag>
+        <tag>JavaScript</tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+      </technologies>
+
+      <last_modified>01.11.2017</last_modified>
+    </project>
+    <project>
+      <enabled>1</enabled>
+      <project_title>Calculator</project_title>
+      <thumbnail>
+        <th_file>index_files/media/fcc/calc.png</th_file>
+        <th_alt>calculator</th_alt>
+        <th_url>https://vlzware.com/fcc/calc/</th_url>
+        <th_title>calculator</th_title>
+      </thumbnail>
+
+      <header>Intelligent Calculator</header>
+      <subheader><![CDATA[supporting advanced synthax:]]></subheader>
+      <list>
+        <bullet><![CDATA[build as a pre-parser on top of <a href="http://mathjs.org/index.html" title="An extensive math library for JavaScript and Node.js">math.js</a>;]]></bullet>
+        <bullet><![CDATA[supporting parentheses, memory variable, square root, power of two, percent;]]></bullet>
+        <bullet><![CDATA[parse-as-you-type error checking.]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+      </list>
+
+      <comment></comment>
+
+      <call_to_action></call_to_action>
+
+      <source>
+        <src_url></src_url>
+        <src_name></src_name>
+        <src_url_title></src_url_title>
+        <src_icon></src_icon>
+      </source>
+
+      <website>
+        <web_url>https://vlzware.com/fcc/calc/</web_url>
+        <web_name>visit the website</web_name>
+        <web_url_title>visit my web calculator</web_url_title>
+        <web_icon></web_icon>
+      </website>
+
+      <technologies>
+        <tag>HTML</tag>
+        <tag>CSS</tag>
+        <tag>JavaScript</tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+      </technologies>
+
+      <last_modified>01.11.2017</last_modified>
+    </project>
+    <project>
+      <enabled>1</enabled>
+      <project_title>Twitch JSON API</project_title>
+      <thumbnail>
+        <th_file>index_files/media/fcc/twitch.png</th_file>
+        <th_alt>twitch api</th_alt>
+        <th_url>https://vlzware.com/fcc/twitch/</th_url>
+        <th_title>twitch api</th_title>
+      </thumbnail>
+
+      <header>Follow your favorite streams on twitch.tv</header>
+      <subheader><![CDATA[in a quick and effective way:]]></subheader>
+      <list>
+        <bullet><![CDATA[see who is on-/offline and go to their stream on <a href="https://twitch.tv" title="twitch">twitch.tv</a>]]></bullet>
+        <bullet><![CDATA[if anyone is streaming see what they are streaming;]]></bullet>
+        <bullet><![CDATA[save your current list of favorites and use it again the next time;]]></bullet>
+        <bullet><![CDATA[search for channels/streams as-you-type.]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+      </list>
+
+      <comment></comment>
+
+      <call_to_action></call_to_action>
+
+      <source>
+        <src_url></src_url>
+        <src_name></src_name>
+        <src_url_title></src_url_title>
+        <src_icon></src_icon>
+      </source>
+
+      <website>
+        <web_url>https://vlzware.com/fcc/twitch/</web_url>
+        <web_name>visit the website</web_name>
+        <web_url_title>visit the twitch-api website</web_url_title>
+        <web_icon></web_icon>
+      </website>
+
+      <technologies>
+        <tag>HTML</tag>
+        <tag>CSS</tag>
+        <tag>JavaScript</tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+      </technologies>
+
+      <last_modified>16.09.2019</last_modified>
+    </project>
+    <project>
+      <enabled>1</enabled>
+      <project_title>Wikipedia Viewer</project_title>
+      <thumbnail>
+        <th_file>index_files/media/fcc/wv.png</th_file>
+        <th_alt>wikipedia viewer</th_alt>
+        <th_url>https://vlzware.com/fcc/WV/</th_url>
+        <th_title>wikipedia viewer</th_title>
+      </thumbnail>
+
+      <header>An interface to wikipedia</header>
+      <subheader><![CDATA[Search in <a href="https://www.wikipedia.org/" title="wikipedia">wikipedia.org</a>]]></subheader>
+      <list>
+        <bullet><![CDATA[search as-you-type or see a random article;]]></bullet>
+        <bullet><![CDATA[the app shows the top (12) articles with short info and pics if available;]]></bullet>
+        <bullet><![CDATA[click on a header in the results to go to the wikipedia's article.]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+      </list>
+
+      <comment></comment>
+
+      <call_to_action></call_to_action>
+
+      <source>
+        <src_url></src_url>
+        <src_name></src_name>
+        <src_url_title></src_url_title>
+        <src_icon></src_icon>
+      </source>
+
+      <website>
+        <web_url>https://vlzware.com/fcc/WV/</web_url>
+        <web_name>visit the website</web_name>
+        <web_url_title>wikipedia viewer</web_url_title>
+        <web_icon></web_icon>
+      </website>
+
+      <technologies>
+        <tag>HTML</tag>
+        <tag>CSS</tag>
+        <tag>JavaScript</tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+      </technologies>
+
+      <last_modified>01.11.2017</last_modified>
+    </project>
+    <project>
+      <enabled>1</enabled>
+      <project_title>Local Weather App</project_title>
+      <thumbnail>
+        <th_file>index_files/media/fcc/slw.png</th_file>
+        <th_alt>show the local weather</th_alt>
+        <th_url>https://vlzware.com/fcc/SLW/</th_url>
+        <th_title>show the local weather</th_title>
+      </thumbnail>
+
+      <header>Short weather info</header>
+      <subheader><![CDATA[featuring:]]></subheader>
+      <list>
+        <bullet><![CDATA[browser- or IP-based geolocation;]]></bullet>
+        <bullet><![CDATA[get some basic info;]]></bullet>
+        <bullet><![CDATA[click on the city to get to the nearest weather station.]]></bullet>
+        <bullet><![CDATA[switch between F° and C° by clicking on them.]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+      </list>
+
+      <comment></comment>
+
+      <call_to_action></call_to_action>
+
+      <source>
+        <src_url></src_url>
+        <src_name></src_name>
+        <src_url_title></src_url_title>
+        <src_icon></src_icon>
+      </source>
+
+      <website>
+        <web_url>https://vlzware.com/fcc/SLW/</web_url>
+        <web_name>visit the website</web_name>
+        <web_url_title>show the local weather</web_url_title>
+        <web_icon></web_icon>
+      </website>
+
+      <technologies>
+        <tag>HTML</tag>
+        <tag>CSS</tag>
+        <tag>JavaScript</tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+      </technologies>
+
+      <last_modified>15.09.2019</last_modified>
+    </project>
+    <project>
+      <enabled>1</enabled>
+      <project_title>Random Quote Machine</project_title>
+      <thumbnail>
+        <th_file>index_files/media/fcc/rqm.png</th_file>
+        <th_alt>random quote machine</th_alt>
+        <th_url>https://vlzware.com/fcc/RQM/</th_url>
+        <th_title>random quote machine</th_title>
+      </thumbnail>
+
+      <header>Query wikiquote.org for a random quote</header>
+      <subheader><![CDATA[Features:]]></subheader>
+      <list>
+        <bullet><![CDATA[Clicking on "reload" loads new random quote and the passing image if available;]]></bullet>
+        <bullet><![CDATA[you can tweet the quote if you like]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+      </list>
+
+      <comment></comment>
+
+      <call_to_action></call_to_action>
+
+      <source>
+        <src_url></src_url>
+        <src_name></src_name>
+        <src_url_title></src_url_title>
+        <src_icon></src_icon>
+      </source>
+
+      <website>
+        <web_url>https://vlzware.com/fcc/RQM/</web_url>
+        <web_name>visit the website</web_name>
+        <web_url_title>visit the website</web_url_title>
+        <web_icon></web_icon>
+      </website>
+
+      <technologies>
+        <tag>HTML</tag>
+        <tag>CSS</tag>
+        <tag>JavaScript</tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+      </technologies>
+
+      <last_modified>01.11.2017</last_modified>
+    </project>
+
+  </projects>
+</domain>
+<domain>
+
+  <domain_title>BUSINESS PROCESS OPTIMIZATION</domain_title>
+  <domain_title_small>process optimization</domain_title_small>
+  <domain_id>process</domain_id>
+
+  <projects>
+    <project>
+      <enabled>1</enabled>
+      <project_title>Intelligent measurements</project_title>
+      <thumbnail>
+        <th_file>index_files/media/aufmass.png</th_file>
+        <th_alt>Intelligent measurements</th_alt>
+        <th_url>https://github.com/vlzware/Aufmass</th_url>
+        <th_title>view at github</th_title>
+      </thumbnail>
+
+      <header>A self-calculating measurements form</header>
+      <subheader><![CDATA[Solving a big real problem for a small real company.]]></subheader>
+      <list>
+        <bullet><![CDATA[massive reduction in time to process the data from the worker on-site to the customer;]]></bullet>
+        <bullet><![CDATA[the form calculates everything, including finding the right formula, on its own;]]></bullet>
+        <bullet><![CDATA[error checking;]]></bullet>
+        <bullet><![CDATA[on-site measurements with your smartphone only;]]></bullet>
+        <bullet><![CDATA[customer-ready form after a quick copy-paste in an Excel-spreadsheet]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+      </list>
+
+      <comment></comment>
+
+      <call_to_action></call_to_action>
+
+      <source>
+        <src_url>https://github.com/vlzware/Aufmass</src_url>
+        <src_name>view at github</src_name>
+        <src_url_title>view at github</src_url_title>
+        <src_icon>fa-github</src_icon>
+      </source>
+
+      <website>
+        <web_url></web_url>
+        <web_name></web_name>
+        <web_url_title></web_url_title>
+        <web_icon></web_icon>
+      </website>
+
+      <technologies>
+        <tag>Process Optimization</tag>
+        <tag>Forms</tag>
+        <tag>Open Source</tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+      </technologies>
+
+      <last_modified>18.10.2018</last_modified>
+    </project>
+  </projects>
+</domain>
+  <docs>
+    <docs_title>Documents</docs_title>
+
+    <themes>
+      <theme>
+        <name>Wind Turbines</name>
+        <bullets>
+          <bullet><![CDATA[Service-Technician Wind-Turbines On-/Offshore BFW Bremerhaven. <a href="index_files/docs/Pruefungszeugnis.pdf" title="view certificate in german">(02.2015)</a>]]></bullet>
+        </bullets>
+      </theme>
+      <theme>
+        <name>German language</name>
+        <bullets>
+          <bullet><![CDATA[C1 in German from Göthe Institut Göttingen. <a href="index_files/docs/C1.jpeg" title="view certificate in german">(03.2017)</a>]]></bullet>
+        </bullets>
+      </theme>
+      <theme>
+        <name>Computer science</name>
+        <bullets>
+          <bullet><![CDATA[Front End Development from FreeCodeCamp. <a href="https://www.freecodecamp.org/vlzware/front-end-certification" title="view certificate">(10.2017)</a>]]></bullet>
+          <bullet><![CDATA[CS50 - Introduction to Computer Science from Harvard through edX. <a href="https://courses.edx.org/certificates/8586c37845f74fe3bef5f63115410b4c" title="Note: edX changed the certificate-id for some reason, so the date was changed too.">(05.2017)</a>]]></bullet>
+          <bullet><![CDATA[Machine Learning - Stanford University on Coursera. <a href="https://www.coursera.org/account/accomplishments/certificate/QPFPQ5G6DBV3" title="view certificate">(06.2017)</a>]]></bullet>
+        </bullets>
+      </theme>
+    </themes>
+  </docs>
+
+  <contact>
+    <contact_title>Contact</contact_title>
+    <mail_url_title>send me an email</mail_url_title>
+    <pubkey_url_title>my public key</pubkey_url_title>
+    <pubkey>PGP key</pubkey>
+  </contact>
+
+</data>

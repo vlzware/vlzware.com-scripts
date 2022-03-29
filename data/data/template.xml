@@ -1,0 +1,54 @@
+    <project>
+      <enabled>1</enabled>
+      <project_title></project_title>
+      <thumbnail>
+        <th_file></th_file>
+        <th_alt></th_alt>
+        <th_url></th_url>
+        <th_title></th_title>
+      </thumbnail>
+
+      <header></header>
+      <subheader><![CDATA[]]></subheader>
+      <list>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+      </list>
+
+      <comment></comment>
+
+      <call_to_action></call_to_action>
+
+      <source>
+        <src_url></src_url>
+        <src_name></src_name>
+        <src_url_title></src_url_title>
+        <src_icon></src_icon>
+      </source>
+
+      <website>
+        <web_url></web_url>
+        <web_name></web_name>
+        <web_url_title></web_url_title>
+        <web_icon></web_icon>
+      </website>
+
+      <technologies>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+      </technologies>
+
+      <last_modified></last_modified>
+    </project>
