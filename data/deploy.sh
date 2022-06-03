@@ -47,6 +47,9 @@ function build() {
   echo "Parsing '${LANG}' ..."
   python parse.py "${XMLFILE}" "${XSLFILE}" "${HTMLFILE}"
 
+  echo "Prettifying '${LANG}' ..."
+  tidy --drop-empty-elements no -imq --wrap 0 "${HTMLFILE}"
+
   echo
 }
 

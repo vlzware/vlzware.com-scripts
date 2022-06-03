@@ -13,4 +13,4 @@ newdom = transform(dom)
 html=str(newdom)
 
 with open (sys.argv[3], 'w') as out_file:
-    print(html, file=out_file) 
+    print(html, file=out_file)

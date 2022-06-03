@@ -3,7 +3,8 @@
 
 <data>
 
-  <technologies>Technologies</technologies>
+  <lang>en</lang>
+  <technologies>Tags</technologies>
   <portfolio>Portfolio</portfolio>
   <last_modified>Last modified</last_modified>
 
@@ -28,11 +29,12 @@
       <bullet><![CDATA[long time ago worked in <a href="qclean.net/index_en.html" title="qclean.net - the original site is no longer maintained, here is an archive copy">my own small company</a>, specialized in industrial cleaning and antigraffiti;]]></bullet>
       <bullet><![CDATA[living in <a href="https://en.wikipedia.org/wiki/L%C3%BCneburg_Heath" title="currently in the beatifull Heide">Germany</a> since 2012;]]></bullet>
       <bullet><![CDATA[for ~7 years (2015-2021) worked as a service technician for wind turbines in <a href="https://www.deutsche-windtechnik.com/home.html" title="Deutsche Windtechnik">"Deutsche Windtechnik AG"</a> - mainly <a href="https://en.wikipedia.org/wiki/Siemens_Wind_Power" title="more about AN BONUS">BONUS/ Siemens</a>. This led to some fun and challenging private side projects (see <a href="#domain-header-wind" class="internal-link" onclick="toggle('wind')">below</a>);]]></bullet>
+      <bullet><![CDATA[just acquired a bachelor degree in "Digital Engineerring and Applied Computer Science" from <a href="https://www.akad.de/" title="AKAD University">AKAD University</a>;]]></bullet>
       <bullet><![CDATA[passionate about learning new things and solving real world problems.]]></bullet>
     </bullets>
     <working_on>Currently (in my free time) working on:</working_on>
     <current_projects>
-      <project><![CDATA[Pursuing a Bachelor-Degree in "Digital Engineering and Applied Computer Science" at <a href="https://www.akad.de" title="AKAD University">AKAD Stuttgart</a>.  Check <a href="https://github.com/vlzware/AKAD_BEDEN" title="my github repo">github</a> for some of my student work.]]></project>
+      <project><![CDATA[A GUI for <a href="https://github.com/iv-org/invidious" title="the invidious project on github">invidious</a> for use on embedded systems]]></project>
     </current_projects>
   </about>
 <domain>
@@ -548,6 +550,60 @@
   <projects>
     <project>
       <enabled>1</enabled>
+      <project_title>XML/XSLT for vlzware.com</project_title>
+      <thumbnail>
+        <th_file>index_files/media/xsl.png</th_file>
+        <th_alt>xsl for vlzware.com</th_alt>
+        <th_url>https://github.com/vlzware/vlzware.com-scripts</th_url>
+        <th_title>XML/XSLT and scripts for this site</th_title>
+      </thumbnail>
+
+      <header>The template and the scripts I use for this website</header>
+      <subheader><![CDATA[This website was initially meant as a simple placeholder for the projects from <a href="https://www.freecodecamp.org/" title="FreeCodeCamp website">FreeCodeCamp</a>, however with the growing number of other projects it became tedious to maintain]]></subheader>
+      <list>
+        <bullet><![CDATA[I wanted to avoid content management system, because it would be an overkill;]]></bullet>
+        <bullet><![CDATA[The same applies to using a database;]]></bullet>
+        <bullet><![CDATA[The solution: use a simple XML template, store every project in a separate file, then combine and transform with XSLT;]]></bullet>
+        <bullet><![CDATA[A Bash script combines all the single files into one for every language;]]></bullet>
+        <bullet><![CDATA[A Python script (using <a href="https://pypi.org/project/lxml/" title="lxml website">lxml</a>) produces the end result using the transformations, defined in the XSL file;]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+      </list>
+
+      <comment></comment>
+
+      <call_to_action>All the interesting files are in GitHub:</call_to_action>
+
+      <source>
+        <src_url>https://github.com/vlzware/vlzware.com-scripts</src_url>
+        <src_name>view at github</src_name>
+        <src_url_title>XML/XSLT and scripts for this site</src_url_title>
+        <src_icon>fa-github</src_icon>
+      </source>
+
+      <website>
+        <web_url></web_url>
+        <web_name></web_name>
+        <web_url_title></web_url_title>
+        <web_icon></web_icon>
+      </website>
+
+      <technologies>
+        <tag>XML</tag>
+        <tag>XSLT</tag>
+        <tag>Bash</tag>
+        <tag>Open Source</tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+      </technologies>
+
+      <last_modified>03.06.2022</last_modified>
+    </project>
+    <project>
+      <enabled>1</enabled>
       <project_title>Boom-Music - create and play music online</project_title>
       <thumbnail>
         <th_file>index_files/media/boom.png</th_file>
@@ -645,7 +701,7 @@
         <tag>HTML</tag>
         <tag>CSS</tag>
         <tag>JavaScript</tag>
-        <tag></tag>
+        <tag>FreeCodeCamp</tag>
         <tag></tag>
         <tag></tag>
         <tag></tag>
@@ -699,7 +755,7 @@
         <tag>HTML</tag>
         <tag>CSS</tag>
         <tag>JavaScript</tag>
-        <tag></tag>
+        <tag>FreeCodeCamp</tag>
         <tag></tag>
         <tag></tag>
         <tag></tag>
@@ -753,7 +809,7 @@
         <tag>HTML</tag>
         <tag>CSS</tag>
         <tag>JavaScript</tag>
-        <tag></tag>
+        <tag>FreeCodeCamp</tag>
         <tag></tag>
         <tag></tag>
         <tag></tag>
@@ -807,7 +863,7 @@
         <tag>HTML</tag>
         <tag>CSS</tag>
         <tag>JavaScript</tag>
-        <tag></tag>
+        <tag>FreeCodeCamp</tag>
         <tag></tag>
         <tag></tag>
         <tag></tag>
@@ -861,7 +917,7 @@
         <tag>HTML</tag>
         <tag>CSS</tag>
         <tag>JavaScript</tag>
-        <tag></tag>
+        <tag>FreeCodeCamp</tag>
         <tag></tag>
         <tag></tag>
         <tag></tag>
@@ -915,7 +971,7 @@
         <tag>HTML</tag>
         <tag>CSS</tag>
         <tag>JavaScript</tag>
-        <tag></tag>
+        <tag>FreeCodeCamp</tag>
         <tag></tag>
         <tag></tag>
         <tag></tag>
@@ -969,7 +1025,7 @@
         <tag>HTML</tag>
         <tag>CSS</tag>
         <tag>JavaScript</tag>
-        <tag></tag>
+        <tag>FreeCodeCamp</tag>
         <tag></tag>
         <tag></tag>
         <tag></tag>
@@ -1023,7 +1079,7 @@
         <tag>HTML</tag>
         <tag>CSS</tag>
         <tag>JavaScript</tag>
-        <tag></tag>
+        <tag>FreeCodeCamp</tag>
         <tag></tag>
         <tag></tag>
         <tag></tag>
@@ -1098,14 +1154,351 @@
     </project>
   </projects>
 </domain>
+<domain>
+
+  <domain_title>FAVORITE UNIVERSITY PROJECTS</domain_title>
+  <domain_title_small>University | Favorite projects</domain_title_small>
+  <domain_id>uni</domain_id>
+
+  <projects>
+    <project>
+      <enabled>1</enabled>
+      <project_title>A concept and implementation of a fully-featured network participant without an IP-address</project_title>
+      <thumbnail>
+        <th_file>index_files/media/interceptor_en.png</th_file>
+        <th_alt>concept for a device without IP</th_alt>
+        <th_url>https://github.com/vlzware/AKAD_BEDEN/tree/master/Bachelorarbeit</th_url>
+        <th_title>view at GitHub</th_title>
+      </thumbnail>
+
+      <header>Plug-And-Play network device, with no need of a configuration or even an IP-address</header>
+      <subheader><![CDATA[To be used between two other devices for content filtering or to use server software]]></subheader>
+      <list>
+        <bullet><![CDATA[It is possible to use an already available IP-Address twice through virtualization;]]></bullet>
+        <bullet><![CDATA[It does not matter if the network uses DHCP or static settings;]]></bullet>
+        <bullet><![CDATA[The new device is undetectable, without explicit targeted search;]]></bullet>
+        <bullet><![CDATA[It starts as a fully-transparent network bridge, observing and analyzing data;]]></bullet>
+        <bullet><![CDATA[The device calculates all the data it needs to work in the network fully atomatically;]]></bullet>
+        <bullet><![CDATA[After switching to a full-mode-operation all network activities are possible;]]></bullet>
+        <bullet><![CDATA[The show one possible usecase scenario we install <a href="https://pi-hole.net/" title="DNS-Filter">PiHole</a> - a DNS-Filter;]]></bullet>
+        <bullet><![CDATA[A connection on the edge of a network offers the most possibilities: data filter, firewall, external access, etc.]]></bullet>
+      </list>
+
+      <comment></comment>
+
+      <call_to_action>The code and the documentaion (in German) are on github:</call_to_action>
+
+      <source>
+        <src_url>https://github.com/vlzware/AKAD_BEDEN/tree/master/Bachelorarbeit</src_url>
+        <src_name>view at github</src_name>
+        <src_url_title>view at github</src_url_title>
+        <src_icon>fa-github</src_icon>
+      </source>
+
+      <website>
+        <web_url></web_url>
+        <web_name></web_name>
+        <web_url_title></web_url_title>
+        <web_icon></web_icon>
+      </website>
+
+      <technologies>
+        <tag>Networks</tag>
+        <tag>Virtualisation</tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+      </technologies>
+
+      <last_modified>08.05.2022</last_modified>
+    </project>
+    <project>
+      <enabled>1</enabled>
+      <project_title>Mixed On-/Offline Voice Recognition</project_title>
+      <thumbnail>
+        <th_file>index_files/media/projectb.png</th_file>
+        <th_alt>mixed voice recognition</th_alt>
+        <th_url>https://github.com/vlzware/AKAD_BEDEN/tree/master/Projektbericht</th_url>
+        <th_title>view at github</th_title>
+      </thumbnail>
+
+      <header>Privacy focused combination of On- and Offline Voice Recognition</header>
+      <subheader><![CDATA[Controlling the Alexa Software with an offline Hardware]]></subheader>
+      <list>
+        <bullet><![CDATA[Alexa is very powerfull voice recognition, and there is an open-source SDK <a href="https://github.com/alexa/avs-device-sdk" title="alexa SDK">available</a>;]]></bullet>
+        <bullet><![CDATA[There is no need to record and send audio constantly to Amazon - lot of tasks are just to control home devices;]]></bullet>
+        <bullet><![CDATA[Therefore, for local tasks we use <a href="https://fortebit.tech/easyvr-3-plus/" title="EasyVR">EasyVR</a> - an offline voice recognition hardware:]]></bullet>
+        <bullet><![CDATA[The offline board is very limited, but can handle some trivial tasks;]]></bullet>
+        <bullet><![CDATA[For more complex tasks we call the Alexa Software;]]></bullet>
+        <bullet><![CDATA[There are some limitations*]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+      </list>
+
+      <comment>*The EasyVR performs very poorly; The Alexa SDK does not have all the features of an "real" Alexa.</comment>
+
+      <call_to_action>View the source code and documentation (in german) at GitHub or view a simple showcase at Vimeo:</call_to_action>
+
+      <source>
+        <src_url>https://github.com/vlzware/AKAD_BEDEN/tree/master/Projektbericht</src_url>
+        <src_name>view at github</src_name>
+        <src_url_title>view at github</src_url_title>
+        <src_icon>fa-github</src_icon>
+      </source>
+
+      <website>
+        <web_url>https://vimeo.com/493701809</web_url>
+        <web_name>vimeo video</web_name>
+        <web_url_title>vimeo video</web_url_title>
+        <web_icon>fa-video-camera</web_icon>
+      </website>
+
+      <technologies>
+        <tag>Voice Recognition</tag>
+        <tag>C++</tag>
+        <tag>Python</tag>
+        <tag>Hardware</tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+      </technologies>
+
+      <last_modified>20.02.2021</last_modified>
+    </project>
+    <project>
+      <enabled>1</enabled>
+      <project_title>Load-and-Shift Register in VHDL</project_title>
+      <thumbnail>
+        <th_file>index_files/media/ebs01.png</th_file>
+        <th_alt>view at github</th_alt>
+        <th_url>https://github.com/vlzware/AKAD_BEDEN/tree/master/Assignments/EBS01%20Hardware%20Design</th_url>
+        <th_title>view at github</th_title>
+      </thumbnail>
+
+      <header>Multifunktional Load-and-Shift Register in VHDL</header>
+      <subheader><![CDATA[test-benchmark inclusive]]></subheader>
+      <list>
+        <bullet><![CDATA[Use as a serial/parallel converter;]]></bullet>
+        <bullet><![CDATA[Use as a shift register;]]></bullet>
+        <bullet><![CDATA[Use as a memory unit;]]></bullet>
+        <bullet><![CDATA[Use as a FIFO buffer;]]></bullet>
+        <bullet><![CDATA[Chainable.]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+      </list>
+
+      <comment></comment>
+
+      <call_to_action>The documentation (in german) and the VHDl files are available on github:</call_to_action>
+
+      <source>
+        <src_url>https://github.com/vlzware/AKAD_BEDEN/tree/master/Assignments/EBS01%20Hardware%20Design</src_url>
+        <src_name>view at github</src_name>
+        <src_url_title>view at github</src_url_title>
+        <src_icon>fa-github</src_icon>
+      </source>
+
+      <website>
+        <web_url></web_url>
+        <web_name></web_name>
+        <web_url_title></web_url_title>
+        <web_icon></web_icon>
+      </website>
+
+      <technologies>
+        <tag>FPGA</tag>
+        <tag>VHDL</tag>
+        <tag>Open Source</tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+      </technologies>
+
+      <last_modified>04.10.2020</last_modified>
+    </project>
+    <project>
+      <enabled>1</enabled>
+      <project_title>PHP/SQL-based webforum</project_title>
+      <thumbnail>
+        <th_file>index_files/media/dba20.png</th_file>
+        <th_alt>view at github</th_alt>
+        <th_url>https://github.com/vlzware/AKAD_BEDEN/tree/master/Assignments/DBA20%20Datenbanksysteme</th_url>
+        <th_title>view at github</th_title>
+      </thumbnail>
+
+      <header>PHP/SQL-based forum with all basic features</header>
+      <subheader><![CDATA[]]></subheader>
+      <list>
+        <bullet><![CDATA[Admin account with full access to add/remove/change/lock other accounts or lock/delete threads;]]></bullet>
+        <bullet><![CDATA[Session-based logins;]]></bullet>
+        <bullet><![CDATA[Ability to make new threads, write new posts and eventually change them afterwards;]]></bullet>
+        <bullet><![CDATA[Working preview available at a free hosting*]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+      </list>
+
+      <comment>*GearHost is no longer available, so I moved to forum to 000webhost.com. Contact me if you need an account to play arround.</comment>
+
+      <call_to_action>Visit the forum or view the source code and the documentation (in german):</call_to_action>
+
+      <source>
+        <src_url>https://github.com/vlzware/AKAD_BEDEN/tree/master/Assignments/DBA20%20Datenbanksysteme</src_url>
+        <src_name>view at github</src_name>
+        <src_url_title>view at github</src_url_title>
+        <src_icon>fa-github</src_icon>
+      </source>
+
+      <website>
+        <web_url>https://dba20.000webhostapp.com/index.php</web_url>
+        <web_name>Forum</web_name>
+        <web_url_title>forum</web_url_title>
+        <web_icon></web_icon>
+      </website>
+
+      <technologies>
+        <tag>PHP</tag>
+        <tag>SQL</tag>
+        <tag>Hosting</tag>
+        <tag>Open Source</tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+      </technologies>
+
+      <last_modified>31.03.2022</last_modified>
+    </project>
+    <project>
+      <enabled>1</enabled>
+      <project_title>Advanced Running Lights</project_title>
+      <thumbnail>
+        <th_file>index_files/media/mcs40.jpg</th_file>
+        <th_alt>running lights</th_alt>
+        <th_url>https://youtu.be/2eO2c66QjnA</th_url>
+        <th_title>youtube video</th_title>
+      </thumbnail>
+
+      <header>App-controlled running lights</header>
+      <subheader><![CDATA[Reviving a broken wind-turbine's signalling lights]]></subheader>
+      <list>
+        <bullet><![CDATA[The original electronics was fried, so I made a new, custom one, which is more fun;]]></bullet>
+        <bullet><![CDATA[The new circuit board uses ATMEGA328 (like the Arduino) and powerful LED-Drivers for the LEDs;]]></bullet>
+        <bullet><![CDATA[There are quite a few modes/effects available;]]></bullet>
+        <bullet><![CDATA[Controlled through a custom protocol over a Bluetooth connection with an Android phone;]]></bullet>
+        <bullet><![CDATA[Android App available.]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+      </list>
+
+      <comment></comment>
+
+      <call_to_action>View the source code and schematics on GitHub or view it at action on youtube:</call_to_action>
+
+      <source>
+        <src_url>https://github.com/vlzware/AKAD_BEDEN/tree/master/Assignments/MCS40%20Microcomputer-Systeme</src_url>
+        <src_name>view at github</src_name>
+        <src_url_title>view at github</src_url_title>
+        <src_icon>fa-github</src_icon>
+      </source>
+
+      <website>
+        <web_url>https://youtu.be/2eO2c66QjnA</web_url>
+        <web_name>youtube video</web_name>
+        <web_url_title>youtube video</web_url_title>
+        <web_icon>fa-video-camera</web_icon>
+      </website>
+
+      <technologies>
+        <tag>Hardware</tag>
+        <tag>Android</tag>
+        <tag>Java</tag>
+        <tag>C++</tag>
+        <tag>Open Source</tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+      </technologies>
+
+      <last_modified>25.05.2019</last_modified>
+    </project>
+    <project>
+      <enabled>1</enabled>
+      <project_title>Implementing Service-Oriented Architecture for distributed data</project_title>
+      <thumbnail>
+        <th_file>index_files/media/ans40.png</th_file>
+        <th_alt>SOA implementation</th_alt>
+        <th_url>https://github.com/vlzware/AKAD_BEDEN/tree/master/Assignments/ANS40%20Gesch%C3%A4ftsprozesse%20und%20Anwendungssysteme</th_url>
+        <th_title>view at github</th_title>
+      </thumbnail>
+
+      <header>Data and workflow integration concept for a company*</header>
+      <subheader><![CDATA[From location-oriented to a process-oriented data flow]]></subheader>
+      <list>
+        <bullet><![CDATA[Analyzing and optimizing business processes inside a company;]]></bullet>
+        <bullet><![CDATA[Using process-driven approach to hanndle the company's distributed data;]]></bullet>
+        <bullet><![CDATA[Centralizing common workflows and data to avoid duplication and fight waste of ressources.]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+        <bullet><![CDATA[]]></bullet>
+      </list>
+
+      <comment>*not a real world company</comment>
+
+      <call_to_action>View the concept at GitHub (in german):</call_to_action>
+
+      <source>
+        <src_url>https://github.com/vlzware/AKAD_BEDEN/tree/master/Assignments/ANS40%20Gesch%C3%A4ftsprozesse%20und%20Anwendungssysteme</src_url>
+        <src_name>view at github</src_name>
+        <src_url_title>view at github</src_url_title>
+        <src_icon>fa-github</src_icon>
+      </source>
+
+      <website>
+        <web_url></web_url>
+        <web_name></web_name>
+        <web_url_title></web_url_title>
+        <web_icon></web_icon>
+      </website>
+
+      <technologies>
+        <tag>Process Optimization</tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+      </technologies>
+
+      <last_modified>15.08.2020</last_modified>
+    </project>
+
+  </projects>
+</domain>
   <docs>
     <docs_title>Documents</docs_title>
 
     <themes>
       <theme>
-        <name>Wind Turbines</name>
+        <name>Computer science</name>
         <bullets>
-          <bullet><![CDATA[Service-Technician Wind-Turbines On-/Offshore BFW Bremerhaven. <a href="index_files/docs/Pruefungszeugnis.pdf" title="view certificate in german">(02.2015)</a>]]></bullet>
+          <bullet><![CDATA[Bachelor degree in "Digital Engineering and Applied Computer Science" (certicifate coming soon)]]></bullet>
+          <bullet><![CDATA[Front End Development from FreeCodeCamp. <a href="https://www.freecodecamp.org/vlzware/front-end-certification" title="view certificate">(10.2017)</a>]]></bullet>
+          <bullet><![CDATA[CS50 - Introduction to Computer Science from Harvard through edX. <a href="https://courses.edx.org/certificates/8586c37845f74fe3bef5f63115410b4c" title="Note: edX changed the certificate-id for some reason, so the date was changed too.">(05.2017)</a>]]></bullet>
+          <bullet><![CDATA[Machine Learning - Stanford University on Coursera. <a href="https://www.coursera.org/account/accomplishments/certificate/QPFPQ5G6DBV3" title="view certificate">(06.2017)</a>]]></bullet>
         </bullets>
       </theme>
       <theme>
@@ -1115,11 +1508,9 @@
         </bullets>
       </theme>
       <theme>
-        <name>Computer science</name>
+        <name>Wind Turbines</name>
         <bullets>
-          <bullet><![CDATA[Front End Development from FreeCodeCamp. <a href="https://www.freecodecamp.org/vlzware/front-end-certification" title="view certificate">(10.2017)</a>]]></bullet>
-          <bullet><![CDATA[CS50 - Introduction to Computer Science from Harvard through edX. <a href="https://courses.edx.org/certificates/8586c37845f74fe3bef5f63115410b4c" title="Note: edX changed the certificate-id for some reason, so the date was changed too.">(05.2017)</a>]]></bullet>
-          <bullet><![CDATA[Machine Learning - Stanford University on Coursera. <a href="https://www.coursera.org/account/accomplishments/certificate/QPFPQ5G6DBV3" title="view certificate">(06.2017)</a>]]></bullet>
+          <bullet><![CDATA[Service-Technician Wind-Turbines On-/Offshore BFW Bremerhaven. <a href="index_files/docs/Pruefungszeugnis.pdf" title="view certificate in german">(02.2015)</a>]]></bullet>
         </bullets>
       </theme>
     </themes>

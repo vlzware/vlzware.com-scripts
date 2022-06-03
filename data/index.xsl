@@ -1,25 +1,19 @@
 <?xml version="1.0"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-  <xsl:output
-  method="xml"
-  indent="yes"
-  doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
-  doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"
-  omit-xml-declaration="yes" />
+  <xsl:output method="html" version="5" indent="yes" />
   <xsl:template match="/">
-
-    <html lang="en">
+      <html lang="{data/lang}">
 
       <head>
 
         <link rel="icon" type="image/png" href="index_files/favicon.ico"/>
 
-        <meta charset="utf-8"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <meta name="description" content="{data/head-description}" />
+        <meta name="description" content="{data/head_description}" />
         <meta name="author" content="jelezarov.vladimir@gmail.com"/>
 
-        <title><xsl:value-of select="data/head-title" /></title>
+        <title><xsl:value-of select="data/head_title" /></title>
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
@@ -89,7 +83,7 @@
                   <li><xsl:value-of select="." disable-output-escaping="yes" /></li>
                 </xsl:for-each>
               </ul>
-              <xsl:value-of select="data/about/working-on" />
+              <xsl:value-of select="data/about/working_on" />
               <ul>
                 <xsl:for-each select="data/about/current_projects/project">
                   <li><xsl:value-of select="." disable-output-escaping="yes" /></li>
